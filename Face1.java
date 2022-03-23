@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Å  A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -8,9 +8,9 @@ import java.awt.Graphics;
 import java.awt.Color;
 import java.awt.Canvas;
 
-public class SmileyFace extends Canvas
+public class Face1 extends Canvas
 {
-   public SmileyFace()    //constructor - sets up the class
+   public Face1()    //constructor - sets up the class
    {
       setSize(800,600);
       setBackground(Color.WHITE);
@@ -23,7 +23,7 @@ public class SmileyFace extends Canvas
       
    }
 
-   public void smileyFace( Graphics window )
+   public void Face( Graphics window )
    {
      setBackground(Color.BLACK);
 
